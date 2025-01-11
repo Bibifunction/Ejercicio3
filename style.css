@@ -27,19 +27,18 @@ body {
 }
 
 /*Section 1*/
+.hero {
+  background-image: url(./Image/test-landing-id3\ 1.png);
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
 .hero-text {
   padding: 12px;
   position: absolute;
   bottom: 37px;
   color: white;
-}
-
-.hero {
-
-  background-image: url(./Image/test-landing-id3\ 1.png);
-  background-position: center;
-  height: 100vh;
-  width: 100%;
 }
 
 p {
