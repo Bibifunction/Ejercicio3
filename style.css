@@ -1,11 +1,12 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
+  width: 400px;
 }
 
 .topbar {
@@ -16,6 +17,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .image1 {
@@ -32,24 +36,28 @@ body {
   background-position: center;
   height: 100vh;
   width: 100%;
+  position: relative;
+  background-size: cover;
+  text-align: left;
 }
 
 .hero-text {
+  width: 378px;
   padding: 12px;
   position: absolute;
   bottom: 37px;
   color: white;
 }
 
-p {
-  width: 60%;
+.hero-text p {
+  width: 65%;
   color: #ef7d00;
   font-size: 20px;
   font-weight: 300;
   margin-bottom: 5px;
 }
 
-h1 {
+.hero-text h1 {
   font-size: 40px;
   text-align: left;
   margin-bottom: 0;
@@ -57,11 +65,12 @@ h1 {
   font-weight: 700;
 }
 
-h2 {
+.hero-text h2 {
   font-size: 20px;
-  font-weight: 50;
+  font-weight: 100;
   margin-bottom: 12px;
   margin-top: 0;
+  line-height: auto;
 }
 
 .btn-start {
@@ -141,7 +150,7 @@ h2 {
   position: relative;
 }
 .project-text {
-  padding-top: 24px;
+  padding-top: 72px;
   padding-bottom: 24px;
   width: 100%;
   margin-top: 96px;
@@ -159,23 +168,99 @@ h2 {
 }
 .project-text p {
   font-size: 20px;
-  line-height: auto;
-  font-weight: 50;
+  font-weight: 20;
   color: #333333;
   text-align: center;
-  width: 100%;
-  margin-top: 10px;
+  width: 400px;
+  height: 46px;
+  margin-top: 8px;
+  line-height: 1.5;
+  padding: 12px;
 }
 
 .mockup-content {
-  width: 201px;
+  display: flex;
+  justify-content: center;
   padding-right: 100px;
   padding-left: 100px;
-  padding-bottom: 72px;
+  margin-bottom: 62px;
   margin-top: 24px;
 }
 
 .mockup-content image4 {
   width: 100%;
   height: auto;
+}
+
+/*Section 4*/
+.formation {
+  width: 100%;
+  padding: 20px;
+  height: auto;
+  max-width: 400px;
+}
+
+.formation-text h2 {
+  font-size: 48px;
+  color: #000;
+  margin-top: 60px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.formation-text h2 span {
+  color: #ef7d00;
+  display: block;
+  margin-bottom: 40px;
+  font-weight: 200p;
+}
+
+
+
+.feature {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.feature icon rocket laptop tools {
+  width: 24px;
+  height: 24px;
+  margin-left: 18px;
+}
+
+.feature-content {
+  display: inline-block;
+  width: calc(100% - 40px);
+  max-width: 305px;
+}
+.feature h3 {
+  font-size: 20px;
+  color: #333;
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}
+
+.feature p {
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  line-height: 1.5;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.vsc-img {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.vsc-img .image5 {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
 }
