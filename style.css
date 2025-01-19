@@ -25,8 +25,7 @@ h2 {
 
 h2 span {
   color: #ef7d00;
-  
-  
+    
 }
 
 p {
@@ -114,7 +113,7 @@ p {
 }
 
 /* SECTION 2 */
-/* Revisado */
+
 
 .design-text {
   margin-bottom: 36px;
@@ -143,7 +142,7 @@ p {
 }
 
 /* SECTION 3 */
-/* Revisado, pendiente cambiar márgenes */
+
 
 .project {
   background-color: #eef0f5;
@@ -342,8 +341,7 @@ p {
   flex-direction: column;
 }
 .firebase {
- width: 100%;
- 
+ width: 100%; 
 }
 
 .workshop-info{
@@ -365,11 +363,7 @@ p {
   line-height: auto;
   font-size: 16px;
   font-weight: 100;
-
 }
-
-
-
 
 .footer-slider {
   display: flex;
@@ -379,3 +373,5 @@ p {
 .btn-left {
   margin-right: 12px;
 }
+
+/*Section 8*/
