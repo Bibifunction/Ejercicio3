@@ -12,7 +12,6 @@ body {
 /* ASPECTOS GENERALES */
 section {
   padding: 12px;
-  margin-bottom: 72px;
 }
 
 h2 {
@@ -69,6 +68,7 @@ p {
   height: 90px;
 }
 
+
 /*Section 1*/
 .landing {
   background-image: url(./Image/test-landing-id3\ 1.png);
@@ -76,6 +76,7 @@ p {
   height: 100vh;
   position: relative;
   background-size: cover;
+  margin-bottom: 72px;
   
 }
 
@@ -123,6 +124,9 @@ p {
 
 /* SECTION 2 */
 
+.design{
+  margin-bottom: 72px;
+}
 
 .design-text {
   margin-bottom: 36px;
@@ -150,6 +154,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center; 
+  margin-bottom: 72px;
   
 }
 
@@ -164,6 +169,10 @@ p {
 }
 
 /* SECTION 4*/
+.formation{
+  margin-bottom: 72px;
+}
+
 .formation-text{
   margin-bottom: 48px;
 }
