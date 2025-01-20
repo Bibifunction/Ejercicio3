@@ -389,8 +389,7 @@ p {
   background-color: #EF7D00;
   border-radius: 12px;
   margin-bottom: 24px;
-  position: relative;
-  
+  position: relative; 
 
 }
 .why-us-card-bg-orange .icon{
@@ -468,13 +467,12 @@ p {
   background-color:#333333 ;
   color: white;
   padding-left: 24px;
-  
-  
+    
 }
 
 .footer-topbar{
-  justify-content: space-between;
-  margin-top: 70px 24px 58px;
+ 
+  margin-top: 70px;
   
 }
 .logo-esat-footer{
@@ -490,8 +488,7 @@ p {
   display: inline-block;
   justify-content: space-between;
   padding: 12px;
-  margin-bottom: 58px; 
-  
+  margin-bottom: 58px;   
 }
 
 .footer-content-right {
